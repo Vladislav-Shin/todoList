@@ -1,0 +1,29 @@
+.main {
+  display: grid;
+  height: 100vh;
+  align-items: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.user-enter {
+  opacity: 0;
+}
+
+.user-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.user-exit {
+  opacity: 1;
+}
+
+.user-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
